@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eortologio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <nav class="instructions">
+        <h2>instructions</h2>
+        <ol>
+            <li>Go to the site <a
+                    href="https://www.greeknamedays.gr/eortologio_by_month.php?action=search&cmonth=1">www.greeknamedays.gr/eortologio_by_month.php</a>
+                and copy and paste the content of <a href="./cleanerBetterVersion.js">cleanerBetterVersion.js</a> to the
+                console of each month' s page online, wait and get your pdf and wait for the next month to be shown</li>
+            <li>Run again the script, get your pdf, wait for the next month and this thing will be done repeatedly for
+                every month
+            </li>
+            <li>Merge pdfs</li>
+            <li>Print them</li>
+        </ol>
+    </nav>
+    <!-- <div class="row">
+        <a href="./Αναζήτηση στο Εορτολόγιο για τον Μήνα Ιανουάριος 2023.htm" target="_blank"
+            rel="noopener noreferrer">1 2023</a>
+    </div> -->
+    <script src="./createMonthsLinks.js"></script>
+    <aside class="row">
+        <span> example link : <a href="https://www.greeknamedays.gr/eortologio_by_month.php?action=search&cmonth=1"
+                target="_blank"
+                rel="noopener noreferrer">https://www.greeknamedays.gr/eortologio_by_month.php?action=search&cmonth=1</a>
+        </span>
+    </aside>
+    <!-- <div class="row"><iframe src="./january2023.htm" frameborder="0"></iframe></div> -->
+</body>
+
+</html>
